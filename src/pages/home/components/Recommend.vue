@@ -2,7 +2,7 @@
   <div>
     <div class="title">推薦地點</div>
     <ul>
-      <li class="li-item" v-for="item of recommendList" :key="item.id">
+      <li class="li-item" v-for="item of list" :key="item.id">
         <img class="item-img" :src="item.imgUrl">
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
@@ -17,20 +17,8 @@
 <script>
 export default{
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1607/7c/7cda8b6782dabd80b4.img.jpg_200x200_2039e660.jpg',
-        title: '上海迪士尼乐园',
-        desc: '全球最大的迪士尼城堡'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1812/66/664b5e8f234743dda3.water.jpg_200x200_b7e57d57.jpg',
-        title: '三亚千古情景区',
-        desc: '置身传统黎村，领略黎族风情'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>

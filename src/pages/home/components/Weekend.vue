@@ -2,7 +2,7 @@
   <div>
     <div class="title">週末計畫</div>
     <ul>
-      <li class="li-item" v-for="item of recommendList" :key="item.id">
+      <li class="li-item" v-for="item of list" :key="item.id">
         <div class="item-img-wrapper">
           <img class="item-img" :src="item.imgUrl">
         </div>
@@ -18,20 +18,8 @@
 <script>
 export default{
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-        title: '京城周末撒欢',
-        desc: '在帝都过周末，不仅仅是城中游！'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg',
-        title: '京城有好泉',
-        desc: '细数北京温泉，温暖你的冬天'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
@@ -46,7 +34,7 @@ export default{
 .item-img-wrapper
   overflow: hidden
   height: 0
-  padding-bottom:33.9%
+  padding-bottom:37.09%
   .item-img
     width:100%
 .item-info

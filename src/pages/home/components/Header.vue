@@ -7,7 +7,7 @@
       <span class="iconfont">&#xe632;</span>輸入縣市及旅遊景點
     </div>
     <div class="header-right">
-    縣市
+    {{this.city}}
     <span class="iconfont arrow-icon">&#xe636;</span>
     </div>
   </div>
@@ -15,7 +15,10 @@
 
 <script>
 export default{
-  name: 'HomeHeader'
+  name: 'HomeHeader',
+  props: {
+    city: String
+  }
 }
 </script>
 
