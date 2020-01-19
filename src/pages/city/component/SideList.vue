@@ -1,16 +1,16 @@
 <template>
     <ul class="list">
-        <li class="item">北</li>
-        <li class="item">中</li>
-        <li class="item">南</li>
-        <li class="item">東</li>
-        <li class="item">島</li>
+        <li class="item" v-for="(item, key) of cities" :key="key">{{key}}</li>
+
     </ul>
 </template>
 
 <script>
 export default{
-  name: 'CitySidelist'
+  name: 'CitySidelist',
+  props: {
+    cities: Object
+  }
 }
 </script>
 
