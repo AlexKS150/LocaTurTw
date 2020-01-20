@@ -2,8 +2,8 @@
   <div>
     <city-header></city-header>
     <city-search></city-search>
-    <city-list :cities="cities" :hot="hotCities"></city-list>
-    <city-sidelist :cities="cities"></city-sidelist>
+    <city-list :cities="cities" :hot="hotCities" :liItem="liItem"></city-list>
+    <city-sidelist :cities="cities" @change="handleSideChange"></city-sidelist>
 </div>
 </template>
 
@@ -25,7 +25,8 @@ export default{
   data () {
     return {
       cities: {},
-      hotCities: []
+      hotCities: [],
+      liItem: ''
     }
   },
   methods: {
@@ -40,6 +41,9 @@ export default{
         this.cities = data.cities
         this.hotCities = data.hotCities
       }
+    },
+    handleSideChange (liItem) {
+      this.liItem = liItem
     }
   },
   mounted () {
