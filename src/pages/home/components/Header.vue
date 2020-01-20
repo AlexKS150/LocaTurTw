@@ -8,6 +8,7 @@
     </div>
     <router-link to="/city">
       <div class="header-right">
+      <!-- 被vuex優化 -->
       {{this.city}}
       <span class="iconfont arrow-icon">&#xe636;</span>
       </div>
@@ -16,10 +17,12 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default{
   name: 'HomeHeader',
-  props: {
-    city: String
+  computed: {
+    // 優化this.$store.state.city到this.city
+    ...mapState(['city'])
   }
 }
 </script>
@@ -48,7 +51,8 @@ export default{
     border-radius:.1rem
     color:#ccc
   .header-right
-    width: 1.24rem
+    min-width: 1.04rem
+    padding:0 .1rem
     float: right
     text-align:center
     color:#fff
