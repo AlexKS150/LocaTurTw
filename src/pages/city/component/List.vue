@@ -33,6 +33,7 @@
 </template>
 
 <script>
+// npm install @better-scroll/core@next
 import Bscroll from 'better-scroll'
 import { mapState, mapMutations } from 'vuex'
 export default{
