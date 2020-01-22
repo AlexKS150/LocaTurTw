@@ -38,6 +38,10 @@ export default {
   },
   activated () {
     window.addEventListener('scroll', this.handleScroll)
+  },
+  deactivated () {
+    // 避免全局變數影響其他頁面
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>
