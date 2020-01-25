@@ -1,0 +1,51 @@
+{
+    "ret":true,
+    "data": {
+        "swiperList": [{
+            "id": "001",
+            "imgUrl": "https://s.yimg.com/ny/api/res/1.2/kpJ8bHFLqWx2wxyKrVo97g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTI0NQ--/https://media.zenfs.com/zh-tw/newstaiwandigi_com_938/300a46bedc8dda5159e91a118053a968"
+        }, {
+            "id": "002",
+            "imgUrl": "http://blog.sina.com.tw/myimages/247/759/images/20080816223020616.jpg"
+        }, {
+            "id": "003",
+            "imgUrl": "http://i0.wp.com/img.globalnewstv.com.tw/uploads/2018/05/20180517163552_23.jpg?resize=773%2C386"
+        }],
+        "iconList": [{
+            "id": "0001",
+            "imgUrl": "https://www.241.com.tw/thumb350X350canvasfck/images/stores/20150731191751.jpg",
+            "linkUrl": "https://www.liontravel.com/category/zh-tw/index",
+            "desc": "雄獅旅行"
+          }, {
+            "id": "0002",
+            "imgUrl": "https://www.solineat.com/data/pic/@wpn2435n.jpg",
+            "linkUrl": "https://www.startravel.com.tw/",
+            "desc": "燦星旅遊"
+          }, {
+            "id": "0003",
+            "imgUrl": "https://www.settour.com.tw/st_dist/img/mobile-icon/before-login-img.jpg",
+            "linkUrl": "https://www.settour.com.tw/",
+            "desc": "東南旅遊"
+          }, {
+            "id": "0005",
+            "imgUrl": "https://www.travel4u.com.tw/images/fb/richmond_logo.jpg",
+            "linkUrl": "https://www.travel4u.com.tw/",
+            "desc": "山富旅行"
+          }, {
+            "id": "0006",
+            "imgUrl": "https://cdn.top-link.com.tw/uploadfiles/762/shop_logo/13445.png",
+            "linkUrl": "https://www.colatour.com.tw/webDM/package/sale/fitpackage/city.html?utm_campaign=pkg&utm_medium=cpc&utm_source=google&utm_term=%7bkeyword%7d&gclid=Cj0KCQiAyKrxBRDHARIsAKCzn8y8usIW5wRsit7jR6wjv14tMV_EcKPibY-rToctSUJcKmfPZUFBe4caAv61EALw_wcB",
+            "desc": "可樂旅遊"
+          }, {
+            "id": "0007",
+            "imgUrl": "https://www.amexcards.com.tw/benefit/fileupload/firminfo/256_mjuzvblgiq.jpg",
+            "linkUrl": "https://www.agoda.com/zh-tw/?device=c&network=&adid=323025289168&rand=1234567890&expid=&adpos=none&url=https://www.agoda.com/zh-tw/index.html&site_id=1826365&tag=f7d3a6e7-9257-49f6-92f1-ea38c16ae5e4&device=c&network=g&adid=347564672291&rand=6005166548327123901&expid=&adpos=1t1&gclid=Cj0KCQiAyKrxBRDHARIsAKCzn8xq59JNnXUP9vmtv6UK1YIRMBWz3Jx12DBJV6u7xX_koHBj13NCulEaAroxEALw_wcB&checkin=2020-02-03&checkout=2020-02-04&adults=1&childs=0&rooms=1&los=1",
+            "desc": "Agoda飯店預訂網"
+          },  {
+            "id": "0008",
+            "imgUrl": "https://a.cdn-hotels.com/da/assets/s/63.0/images/brands/hcom/logos/logo-social.jpg",
+            "linkUrl": "https://tw.hotels.com/",
+            "desc": "Hotels.com"
+          }]
+    }
+}
