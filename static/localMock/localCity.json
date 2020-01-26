@@ -1,91 +1,84 @@
 {
     "ret":true,
     "data":{
+        "hotCities":[{                
+            "id": 18,
+            "name": "澎湖"
+            }, {
+            "id": 16,
+            "name": "台東"
+            }, {
+            "id": 13,
+            "name": "屏東"             
+            }, {
+            "id": 6,
+            "name": "南投"          
+            }],
         "cities":{
-            "North":[{
+            "北部":[{
                 "id": 1,
-                "name": "台北",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/taipei-yilan?fr=cg117T0501C0101M01"
+                "name": "台北"
             }, {
                 "id": 2,
-                "name": "新北",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/taipei-yilan?fr=cg117T0501C0101M01"
+                "name": "新北"
             }, {
                 "id": 3,
-                "name": "桃園",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/taoyuan-hsinchu-miaoli?fr=cg330C0201C0101M01"
+                "name": "桃園"
             }, {
                 "id": 4,
-                "name": "新竹",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/taoyuan-hsinchu-miaoli?fr=cg330C0201C0101M01"
+                "name": "新竹"
             },  {
                 "id": 5,
-                "name": "苗栗",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/taoyuan-hsinchu-miaoli?fr=cg330C0201C0101M01"
+                "name": "苗栗"
             }],
-            "Center":[{
+            "中部":[{
                 "id": 6,
-                "name": "南投",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/nantou?fr=cg334C0201C0101M01"                
+                "name": "南投"          
             }, {
                 "id": 7,
-                "name": "彰化",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/taichung-changhua?fr=cg332C0201C0101M01"                
+                "name": "彰化"           
             }, {
                 "id": 8,
-                "name": "台中",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/taichung-changhua?fr=cg332C0201C0101M01"                
+                "name": "台中"         
             }, {
                 "id": 9,
-                "name": "雲林",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/yunlin-chiayi-tainan?fr=cg333C0201C0101M01"                
+                "name": "雲林"               
             }, {
                 "id": 10,
-                "name": "嘉義",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/yunlin-chiayi-tainan?fr=cg333C0201C0101M01"                
+                "name": "嘉義"             
             }],
-            "South":[{
+            "南部":[{
                 "id": 11,
-                "name": "台南",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/yunlin-chiayi-tainan?fr=cg334C0201C0101M01"                
+                "name": "台南"              
             }, {
                 "id": 12,
-                "name": "高雄",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/kaohsiung?fr=cg334C0201C0101M01"                
+                "name": "高雄"           
             }, {
                 "id": 13,
-                "name": "屏東",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/kenting?fr=cg334C0201C0101M01"                
+                "name": "屏東"             
             }],
-            "East":[{
+            "東部":[{
                 "id": 14,
-                "name": "宜蘭",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/taipei-yilan?fr=cg338C0201C0101M01"                
+                "name": "宜蘭"
             }, {
                 "id": 15,
-                "name": "花蓮",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/hualien-taitung?fr=cg336C0201C0101M01"                
+                "name": "花蓮"
             }, {
                 "id": 16,
-                "name": "台東",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/hualien-taitung?fr=cg336C0201C0101M01"                
+                "name": "台東"
             }, {
                 "id": 17,
-                "name": "綠島",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/hualien-taitung?fr=cg335C0201C0101M01"                
+                "name": "綠島"
             }],
-            "Island":[{
+            "外島":[{
                 "id": 18,
-                "name": "綠島",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/hualien-taitung?fr=cg335C0201C0101M01"                
+                "name": "澎湖"
             }, {
                 "id": 19,
-                "name": "綠島",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/hualien-taitung?fr=cg335C0201C0101M01"                
+                "name": "金門"
             }, {
                 "id": 20,
-                "name": "綠島",
-                "link":"https://vacation.liontravel.com/category/zh-tw/taiwan/hualien-taitung?fr=cg335C0201C0101M01"                
+                "name": "馬祖"
             }]
 
         }

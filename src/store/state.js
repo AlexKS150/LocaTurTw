@@ -3,7 +3,9 @@ try {
   if (localStorage.city) {
     defalutCity = localStorage.city
   }
-} catch (e) {}
+} catch (e) {
+  console.log('stateWrong')
+}
 
 export default {
   city: defalutCity

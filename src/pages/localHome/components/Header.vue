@@ -1,12 +1,11 @@
 <template>
   <div class="header">
     <div class="header-left">
-        <div class="iconfont back-icon">&#xe624;</div>
     </div>
     <div class="header-input">
-      <span class="iconfont">&#xe632;</span>輸入縣市及旅遊景點
+      台灣國內旅遊推薦
     </div>
-    <router-link to="/city">
+    <router-link to="/localCity">
       <div class="header-right">
       <!-- 被vuex優化 -->
       {{this.city}}
@@ -49,7 +48,9 @@ export default{
     padding-left:.2rem
     background:#fff
     border-radius:.1rem
-    color:#ccc
+    color:#000
+    text-align:center
+    font-size:.4rem
   .header-right
     min-width: 1.04rem
     padding:0 .1rem

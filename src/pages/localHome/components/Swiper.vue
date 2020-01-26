@@ -1,6 +1,6 @@
 <template>
 <div class="wrapper">
-  <swiper :options="swiperOption" v-if="showSwiper">
+  <swiper :options="swiperOption" v-if="showSwiper && isKeep" ref="swiper">
     <swiper-slide v-for="item of list" :key="item.id">
       <img class="swiper-img" :src="item.imgUrl" >
     </swiper-slide>
@@ -20,17 +20,26 @@ export default{
       notNextTick: true,
       swiperOption: {
         autoplay: true,
-        speed: 3000,
+        speed: 2000,
         pagination: '.swiper-pagination',
         loop: true,
-        autoplayDisableOnInteraction: false
-      }
+        autoplayDisableOnInteraction: true,
+        observer: true,
+        observeParents: true
+      },
+      isKeep: false
     }
   },
   computed: {
     showSwiper () {
       return this.list.length
     }
+  },
+  activated () {
+    this.isKeep = true
+  },
+  deactivated () {
+    this.isKeep = false
   }
 }
 </script>
