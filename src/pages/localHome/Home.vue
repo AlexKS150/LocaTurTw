@@ -4,6 +4,7 @@
     <home-swiper :list="swiperList"></home-swiper>
     <home-icons :list="iconList"></home-icons>
     <home-recommend :list="recommendList"></home-recommend>
+    <copyright></copyright>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import HomeHeader from './components/Header'
 import HomeSwiper from './components/Swiper'
 import HomeIcons from './components/Icons'
 import HomeRecommend from './components/Recommend'
+import Copyright from 'common/copyright/Copyright'
 // axios package
 import axios from 'axios'
 import { mapState } from 'vuex'
@@ -21,27 +23,25 @@ export default{
     HomeHeader,
     HomeSwiper,
     HomeIcons,
-    HomeRecommend
+    HomeRecommend,
+    Copyright
   },
   data () {
     return {
       lastCity: '',
       swiperList: [],
       iconList: [],
-      recommendList: []
+      recommendList: [],
+      lastCityID: null
     }
   },
   computed: {
-    ...mapState(['city'])
+    ...mapState(['city', 'cityID'])
   },
   methods: {
     getLocalHomeCommon () {
       axios.get('./static/localMock/commonIndex.json')
         .then(this.doneLocalHomeCommon)
-    },
-    getLocalHomeInfo () {
-      axios.get('./static/mock/index.json?city=' + this.city)
-        .then(this.getHomeInfoSucc)
     },
     doneLocalHomeCommon (res) {
       res = res.data
@@ -51,25 +51,30 @@ export default{
         this.iconList = data.iconList
       }
     },
+    getLocalHomeInfo () {
+      axios.get('./static/localMock/localIntro.json')
+        .then(this.doneLocalHomeInfo)
+    },
     doneLocalHomeInfo (res) {
       res = res.data
       if (res.ret && res.data) {
-        const data = res.data
+        const data = res.data[this.cityID]
         this.recommendList = data.recommendList
       }
     }
   },
   mounted () {
     this.lastCity = this.city
+    this.lastCityID = this.cityID
     this.getLocalHomeCommon()
     this.getLocalHomeInfo()
   },
   activated () {
     if (this.lastCity !== this.city) {
       this.lastCity = this.city
+      this.lastCityID = this.cityID
       this.getLocalHomeInfo()
     }
-    // console.log(this.city)
   }
 }
 </script>

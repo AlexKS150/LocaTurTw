@@ -8,9 +8,9 @@
 
 <script>
 import axios from 'axios'
-import CityHeader from './component/Header'
-import CitySearch from './component/Search'
-import CityList from './component/List'
+import CityHeader from './components/Header'
+import CitySearch from './components/Search'
+import CityList from './components/List'
 
 export default{
   name: 'City',

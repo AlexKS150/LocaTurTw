@@ -3,8 +3,12 @@ export default{
     state.city = city
     try {
       localStorage.city = city
-    } catch (e) {
-      console.log('mutationWrong')
-    }
+    } catch (e) {}
+  },
+  changeCityID (state, cityID) {
+    state.cityID = cityID
+    try {
+      localStorage.cityID = cityID
+    } catch (e) {}
   }
 }

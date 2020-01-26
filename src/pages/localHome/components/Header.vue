@@ -21,7 +21,8 @@ export default{
   name: 'HomeHeader',
   computed: {
     // 優化this.$store.state.city到this.city
-    ...mapState(['city'])
+    ...mapState(['city']),
+    ...mapState(['cityID'])
   }
 }
 </script>
