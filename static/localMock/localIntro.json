@@ -4,33 +4,115 @@
     "id": 0,
     "name": "台北",
     "recommendList": [{
-      "id": "01",
+      "detailID": 1,
       "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Taipei_main_station_exterior_2018.png/300px-Taipei_main_station_exterior_2018.png",
-      "mapUrl":"",
       "title": "台北車站",
       "desc": "台灣重點火車站，交通轉捩點。"
     }, {
-      "id": "02",
+      "detailID": 2,
       "imgUrl": "https://www.travel.taipei/image/64602/1024x768",
-      "mapUrl":"",
       "title": "台北101",
       "desc": "曾經是個世界最高之塔。"
+    }, {
+      "detailID": 3,
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/North_Gate_Square_20170803.jpg/250px-North_Gate_Square_20170803.jpg",
+      "title": "臺北府城北門",
+      "desc": "臺灣臺北市中正區的清代城門建築，為臺北府城的正門。"
+    }, {
+      "detailID": 4,
+      "imgUrl": "https://t3.gstatic.com/images?q=tbn:ANd9GcQ0mjG_2FwoFZqZPmnYOwiLMVob-eid39ttY8OGNf8uPhHiSrXCwUrEg_E_JDUcVGreOnlt6KQOWs8QIw",
+      "title": "中正紀念堂",
+      "desc": "紀念已故前中華民國總統蔣中正而興建的建築。"
     }]
   }, {
     "id": 1,
     "name": "新北",
     "recommendList": [{
-      "id": "01",
+      "detailID": 1,
       "imgUrl": "https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_290_8.jpg",
-      "mapUrl": "224新北市瑞芳區九份",
       "title": "九份一日遊",
       "desc": "九份一日：九份必去老街、阿妹茶樓，必吃美食芋圓、阿蘭草仔粿！"        
     }, {
-      "id": "02",
+      "detailID": 2,
       "imgUrl": "https://photo.travelking.com.tw/scenery/6406B0BA-E9D2-4283-A7AE-84CD08CD38C7_e.jpg",
-      "mapUrl": "林本源園邸",
       "title": "林本源園邸",
       "desc": "板橋林本源園邸，是目前臺灣僅存最完整的園林建築。"
+    }, {
+      "detailID": 3,
+      "imgUrl": "https://lh5.googleusercontent.com/p/AF1QipN0jzYweoC-Pyqmp5NPg4YS1y-5AiSIPS-rIGNK=w408-h306-k-no",
+      "title": "熊空茶園",
+      "desc": "新北市的台灣農林茶園"
+    }, {
+      "detailID": 4,
+      "imgUrl": "https://icrvb3jy.xinmedia.com/solomo/article/24499/7AFA3EEF-4DFE-493A-9BB9-ACA2A4C448F0.jpg",
+      "title": "陽明山溫泉",
+      "desc": "北部溫泉勝地"
+    }]
+  }, {
+    "id": 2,
+    "name": "桃園",
+    "recommendList": [{
+      "detailID": 1,
+      "imgUrl": "https://lh4.googleusercontent.com/proxy/C5Bh7zW8ygpGCBI2heMtPF0s46OlMjXqVYy869OoKRPGE8ebgxO2qVK-Y7tw8w_T4qES3V_S3bTibHYDMrJ7xSBMEipoiJgO0mt8knQi38gmKqH06hAAUa61Pb_avIu1dy6xjSLh53LkTJHNtIVX1X0b9T8UzVy4zio4KUmel3cF=w296-h202-n-k-no",
+      "mapUrl": "",
+      "title": "小人國主題樂園",
+      "desc": "迷你人的世界！"        
+    }, {
+      "detailID": 2,
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Shimen_Dam_Overlook.jpg/275px-Shimen_Dam_Overlook.jpg",
+      "mapUrl": "",
+      "title": "石門水庫",
+      "desc": "台灣北部的主要水庫之一。"
+    }, {
+      "detailID": 3,
+      "imgUrl": "https://lh5.googleusercontent.com/p/AF1QipNASPnYOgnRPGUPitDuiEsHzRfscn1UCM4JIoZU=w120-h160-k-no",
+      "mapUrl": "",
+      "title": "大溪老街",
+      "desc": "涵蓋和平路、中山路、中央路三條歷史街屋"
+    }]
+  }, {
+    "id": 3,
+    "name": "新竹",
+    "recommendList": [{
+      "detailID": 1,
+      "imgUrl": "https://lh5.googleusercontent.com/p/AF1QipNxLfQjnQSYllEglcOg8A-ioBAwkFyM_kSvpcVR=w284-h160-k-no",
+      "mapUrl": "",
+      "title": "六福村主題遊樂園",
+      "desc": "新竹遊樂園"        
+    }, {
+      "detailID": 2,
+      "imgUrl": "https://lh4.googleusercontent.com/-JAPEoXwkv_Y/XiO7puRBLoI/AAAAAAAA2ds/WyByFgJAgEcWRLJH5LNOy86T853aqoESACLIBGAYYCw/w296-h202-n-k-no/",
+      "mapUrl": "",
+      "title": "綠世界生態農場",
+      "desc": "國際級之生態農場。"
+    }, {
+      "detailID": 3,
+      "imgUrl": "https://lh5.googleusercontent.com/p/AF1QipNLyQucuPDPfis1C6ocneX3f1knxDlYTpVj9c-8=w160-h160-k-no",
+      "mapUrl": "",
+      "title": "司馬庫斯",
+      "desc": "台灣新竹縣尖石鄉後山高海拔的一個泰雅族部落"
+    }]
+  }, {
+    "id": 4,
+    "name": "苗栗",
+    "recommendList": [{
+      "detailID": 1,
+      "imgUrl": "https://lh5.googleusercontent.com/proxy/iRhQLd9Px0ji_gvCNLl8ZODE2l5cWITHKykYq1mBW4GpLesJ3iKH8-weMl0s7xCUVNgXP43VjBlxZd6tFke6jdSgWuHfvXKrZ0oEE9Kg19plI1tYur8XSCEoaLHeNneRm7xee3mQEKM0IZvSQTy1J31wPb6Uedm6K8To45wU0nry=w296-h202-n-k-no",
+      "mapUrl": "",
+      "title": "魚藤坪斷橋",
+      "desc": "斷橋古蹟。"        
+    }, {
+      "detailID": 2,
+      "imgUrl": "https://lh6.googleusercontent.com/-TrSAX7wtHfM/XHvaOj4vcAI/AAAAAAABze4/DTQ7J0kRUX0mHu8Klx62wz5pUUoD9vlugCLIBGAYYCw/w296-h202-n-k-no/",
+      "mapUrl": "",
+      "title": "飛牛牧場",
+      "desc": "沒有飛牛。"
+    }, {
+      "detailID": 3,
+      "imgUrl": "https://lh4.googleusercontent.com/-HreaRmjHPww/V9FHGLL_5ZI/AAAAAAAAhJE/_fXxOTMlhRoghXTIRDwb4xBtndLs0FVvwCLIBGAYYCw/w296-h202-n-k-no/",
+      "mapUrl": "",
+      "title": "舊山線鐵道自行車",
+      "desc": "苗栗自行車車道"
     }]
   }]
 }

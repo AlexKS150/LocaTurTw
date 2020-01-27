@@ -3,7 +3,7 @@
     <div class="header-left">
     </div>
     <div class="header-input">
-      台灣國內旅遊推薦
+      台灣旅遊推薦
     </div>
     <router-link to="/localCity">
       <div class="header-right">

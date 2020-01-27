@@ -62,6 +62,7 @@ export default {
         color:#fff
         background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.8))
         .banner-title
+            margin-left:.1rem
             font-size:.32rem
             flex: 1
         .banner-number

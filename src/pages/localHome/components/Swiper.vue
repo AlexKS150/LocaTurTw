@@ -35,6 +35,7 @@ export default{
       return this.list.length
     }
   },
+  // 阻止幻燈片幻夜停止自動播放
   activated () {
     this.isKeep = true
   },

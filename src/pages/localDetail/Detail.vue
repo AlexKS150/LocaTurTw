@@ -3,7 +3,7 @@
         <detail-banner :sightName="sightName" :bannerImg="bannerImg" :bannerImgs="galleryImgs"></detail-banner>
         <detail-header></detail-header>
         <div class="content">
-          <detail-list :list="list"></detail-list>
+          <detail-desc :detailDesc="detailDesc" :mapUrl="mapUrl" :itemClaim="itemClaim"></detail-desc>
         </div>
     </div>
 </template>
@@ -11,28 +11,30 @@
 <script>
 import DetailBanner from './components/Banner'
 import DetailHeader from './components/Header'
-import DetailList from './components/List'
+import DetailDesc from './components/DetailDesc'
 import axios from 'axios'
 export default {
   name: 'Detail',
   components: {
     DetailBanner,
     DetailHeader,
-    DetailList
+    DetailDesc
   },
   data () {
     return {
       sightName: '',
       bannerImg: '',
       galleryImgs: [],
-      list: []
+      detailDesc: '',
+      mapUrl: '',
+      itemClaim: ''
     }
   },
   methods: {
     getDetailInfo () {
-      axios.get('./static/mock/detail.json', {
+      axios.get('./static/localMock/siteIntro_0_1.json', {
         params: {
-          id: this.$route.params.id
+          detailID: this.$route.params.detailID
         }
       }).then(this.handleGetDataSucc)
     },
@@ -43,7 +45,9 @@ export default {
         this.sightName = data.sightName
         this.bannerImg = data.bannerImg
         this.galleryImgs = data.galleryImgs
-        this.list = data.categoryList
+        this.detailDesc = data.detailDesc
+        this.mapUrl = data.mapUrl
+        this.itemClaim = data.itemClaim
       }
     }
   },
@@ -54,6 +58,4 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-    .content
-        height: 50rem
 </style>

@@ -2,7 +2,7 @@
   <div>
     <div class="title">推薦地點</div>
     <ul>
-      <router-link tag="li"  class="li-item" v-for="item of list" :key="item.id" :to=" '/detail/' + item.id ">
+      <router-link tag="li"  class="li-item" v-for="item of list" :key="item.detailID" :to=" '/localDetail/' + item.detailID ">
         <img class="item-img" :src="item.imgUrl">
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
@@ -49,7 +49,7 @@ export default{
       ellipsis()
     .item-desc
       line-height:.4rem
-      color:#aaa
+      color:blue
       ellipsis()
     .item-button
       line-height:.44rem

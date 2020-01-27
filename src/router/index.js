@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import LocalHome from '@/pages/localHome/Home'
 import LocalCity from '@/pages/localCity/City'
-import LocalDetail from '@/pages/LocalDetail/Detail'
+import LocalDetail from '@/pages/localDetail/Detail'
 
 Vue.use(Router)
 
