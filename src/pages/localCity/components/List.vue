@@ -23,8 +23,12 @@
       </div>
       <div class="area" v-for="(item, key) of cities" :key="key" :ref="key">
         <div class="title border-topbottom">{{key}}</div>
-        <div class="item-list">
-          <div class="item border-bottom" v-for="innerItem of item" :key="innerItem.id" @click="handleCityClick(innerItem.name); handleCityIDClick(innerItem.id)">{{innerItem.name}}</div>
+        <div class="button-list">
+          <div class="button-wrapper" v-for="innerItem of item" :key="innerItem.id" @click="handleCityClick(innerItem.name); handleCityIDClick(innerItem.id)">
+            <div class="button">
+              {{innerItem.name}}
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -95,12 +99,13 @@ export default{
   bottom: 0
   .title
     background: .4rem
-    background:#eee
-    color:#666
-    font-size:.26rem
+    background:#9AA0FF
+    color:#414141
+    font-size:.35rem
+    text-align:center
   .button-list
     overflow:hidden
-    padding:.1rem .6rem .1rem .1rem
+    padding:.1rem
     .button-wrapper
       float:left
       width:33.33%
@@ -110,8 +115,11 @@ export default{
         text-align:center
         border:.02rem solid #ccc
         border-radius: .06rem
+        font-size: .4rem
   .item-list
     .item
       line-height:.54rem
       padding-left:.2rem
+      font-size: .4rem
+      text-align: center
 </style>

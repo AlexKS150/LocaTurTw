@@ -23,9 +23,7 @@ export default{
         speed: 2000,
         pagination: '.swiper-pagination',
         loop: true,
-        autoplayDisableOnInteraction: true,
-        observer: true,
-        observeParents: true
+        autoplayDisableOnInteraction: false
       },
       isKeep: false
     }

@@ -1,17 +1,21 @@
 <template>
-    <div>
+  <div>
+    <div class='detail-page'>
         <detail-banner :sightName="sightName" :bannerImg="bannerImg" :bannerImgs="galleryImgs"></detail-banner>
-        <detail-header></detail-header>
+        <detail-header :sightName="sightName"></detail-header>
         <div class="content">
           <detail-desc :detailDesc="detailDesc" :mapUrl="mapUrl" :itemClaim="itemClaim"></detail-desc>
         </div>
+        <copyright></copyright>
     </div>
+  </div>
 </template>
 
 <script>
 import DetailBanner from './components/Banner'
 import DetailHeader from './components/Header'
 import DetailDesc from './components/DetailDesc'
+import Copyright from 'common/copyright/Copyright'
 import axios from 'axios'
 import { mapState } from 'vuex'
 export default {
@@ -19,7 +23,8 @@ export default {
   components: {
     DetailBanner,
     DetailHeader,
-    DetailDesc
+    DetailDesc,
+    Copyright
   },
   data () {
     return {
@@ -51,9 +56,8 @@ export default {
       }
     }
   },
-  mounted () {
+  activated () {
     this.getDetailInfo()
-    console.log(this.detailID)
   }
 }
 </script>

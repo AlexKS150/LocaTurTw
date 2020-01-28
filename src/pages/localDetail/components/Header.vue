@@ -7,7 +7,7 @@
             <router-link to="/">
                 <div class="iconfont header-fixed-back">&#xe624;</div>
             </router-link>
-            介紹頁面
+            {{this.sightName}}
         </div>
     </div>
 </template>
@@ -15,6 +15,9 @@
 <script>
 export default {
   name: 'DetailHeader',
+  props: {
+    sightName: String
+  },
   data () {
     return {
       showAbs: true,
@@ -25,6 +28,7 @@ export default {
   },
   methods: {
     handleScroll () {
+      // 這裡要注意keep-alive跟實機使用
       const top = document.documentElement.scrollTop
       if (top > 60) {
         let opacity = top / 140
@@ -38,6 +42,7 @@ export default {
   },
   activated () {
     window.addEventListener('scroll', this.handleScroll)
+    this.$nextTick(() => { document.body.scrollTop = 0 })
   },
   deactivated () {
     // 避免全局變數影響其他頁面

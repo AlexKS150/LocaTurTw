@@ -27,6 +27,7 @@ export default {
         .site-content
             text-indent: .8rem
             font-size:.4rem
+            line-height:.6rem
         .wiki-claim
             margin-top:.5rem
             font-size:.5rem
