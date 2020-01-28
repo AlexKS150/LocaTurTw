@@ -14,7 +14,7 @@
       <div class="area">
         <div class="title border-topbottom">熱門縣市</div>
         <div class="button-list">
-          <div class="button-wrapper" v-for="item of hot" :key="item.id" @click="handleCityClick(item.name,item.id); handleCityIDClick(item.id)">
+          <div class="button-wrapper" v-for="item of hot" :key="item.id" @click="handleCityClick(item.name); handleCityIDClick(item.id)">
             <div class="button">
               {{item.name}}
             </div>
@@ -63,6 +63,7 @@ export default{
   mounted () {
     this.scroll = new Bscroll(this.$refs.wrapper, {click: true})
   },
+  // 看看是否刪除watch區域
   watch: {
     liItem () {
       if (this.liItem) {

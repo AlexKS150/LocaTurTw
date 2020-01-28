@@ -13,6 +13,7 @@ import DetailBanner from './components/Banner'
 import DetailHeader from './components/Header'
 import DetailDesc from './components/DetailDesc'
 import axios from 'axios'
+import { mapState } from 'vuex'
 export default {
   name: 'Detail',
   components: {
@@ -30,13 +31,12 @@ export default {
       itemClaim: ''
     }
   },
+  computed: {
+    ...mapState(['detailID'])
+  },
   methods: {
     getDetailInfo () {
-      axios.get('./static/localMock/siteIntro_0_1.json', {
-        params: {
-          detailID: this.$route.params.detailID
-        }
-      }).then(this.handleGetDataSucc)
+      axios.get('./static/localMock/siteIntro_' + (this.detailID).toString() + '.json').then(this.handleGetDataSucc)
     },
     handleGetDataSucc (res) {
       res = res.data
@@ -53,6 +53,7 @@ export default {
   },
   mounted () {
     this.getDetailInfo()
+    console.log(this.detailID)
   }
 }
 </script>

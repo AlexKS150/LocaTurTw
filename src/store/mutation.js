@@ -10,5 +10,11 @@ export default{
     try {
       localStorage.cityID = cityID
     } catch (e) {}
+  },
+  changeDetailID (state, detailID) {
+    state.detailID = detailID
+    try {
+      localStorage.detailID = detailID
+    } catch (e) {}
   }
 }
