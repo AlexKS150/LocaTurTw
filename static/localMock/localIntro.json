@@ -57,21 +57,18 @@
     "id": 2,
     "name": "桃園",
     "recommendList": [{
-      "detailID": 1,
-      "imgUrl": "https://lh4.googleusercontent.com/proxy/C5Bh7zW8ygpGCBI2heMtPF0s46OlMjXqVYy869OoKRPGE8ebgxO2qVK-Y7tw8w_T4qES3V_S3bTibHYDMrJ7xSBMEipoiJgO0mt8knQi38gmKqH06hAAUa61Pb_avIu1dy6xjSLh53LkTJHNtIVX1X0b9T8UzVy4zio4KUmel3cF=w296-h202-n-k-no",
-      "mapUrl": "",
+      "detailID": 301,
+      "imgUrl": "https://og.momoshop.com.tw/1578924053622/goodsimg/0005/005/736/5005736_R.jpg",
       "title": "小人國主題樂園",
       "desc": "迷你人的世界！"        
     }, {
-      "detailID": 2,
+      "detailID": 302,
       "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Shimen_Dam_Overlook.jpg/275px-Shimen_Dam_Overlook.jpg",
-      "mapUrl": "",
       "title": "石門水庫",
       "desc": "台灣北部的主要水庫之一。"
     }, {
-      "detailID": 3,
+      "detailID": 303,
       "imgUrl": "https://lh5.googleusercontent.com/p/AF1QipNASPnYOgnRPGUPitDuiEsHzRfscn1UCM4JIoZU=w120-h160-k-no",
-      "mapUrl": "",
       "title": "大溪老街",
       "desc": "涵蓋和平路、中山路、中央路三條歷史街屋"
     }]
@@ -79,23 +76,25 @@
     "id": 3,
     "name": "新竹",
     "recommendList": [{
-      "detailID": 1,
-      "imgUrl": "https://lh5.googleusercontent.com/p/AF1QipNxLfQjnQSYllEglcOg8A-ioBAwkFyM_kSvpcVR=w284-h160-k-no",
-      "mapUrl": "",
+      "detailID": 401,
+      "imgUrl": "https://lh4.googleusercontent.com/-Hvz_2009YJ8/Xa3Gy9-KyfI/AAAAAAAAHz0/efzDBmAmtWEoeIy87lxcjuvQKTFmKOfUACLIBGAYYCw/w296-h202-n-k-no/",
+      "title": "新竹都城隍廟",
+      "desc": "臺灣新竹市北區的城隍廟，國家古蹟。"        
+    }, {
+      "detailID": 402,
+      "imgUrl": "https://lh5.googleusercontent.com/-GZqU-ol9aEk/XV3RipX3dFI/AAAAAAAAE_E/5X6TcpHTfIU3YdH_Odh6yyRtvMFEQXk4gCLIBGAYYCw/w296-h202-n-k-no/",
       "title": "六福村主題遊樂園",
-      "desc": "新竹遊樂園"        
+      "desc": "臺灣新竹縣關西鎮的主題樂園。"
     }, {
-      "detailID": 2,
-      "imgUrl": "https://lh4.googleusercontent.com/-JAPEoXwkv_Y/XiO7puRBLoI/AAAAAAAA2ds/WyByFgJAgEcWRLJH5LNOy86T853aqoESACLIBGAYYCw/w296-h202-n-k-no/",
-      "mapUrl": "",
-      "title": "綠世界生態農場",
-      "desc": "國際級之生態農場。"
+      "detailID": 403,
+      "imgUrl": "https://lh6.googleusercontent.com/-el3Lq4JA71s/XXOqxmJaTAI/AAAAAAAAnO0/4xcmrZt3yzI1LY70A4jGjyAj-47MyFU-ACLIBGAYYCw/w296-h202-n-k-no/",
+      "title": "北埔老街",
+      "desc": "曾是北埔最熱鬧的商業中心。"
     }, {
-      "detailID": 3,
-      "imgUrl": "https://lh5.googleusercontent.com/p/AF1QipNLyQucuPDPfis1C6ocneX3f1knxDlYTpVj9c-8=w160-h160-k-no",
-      "mapUrl": "",
-      "title": "司馬庫斯",
-      "desc": "台灣新竹縣尖石鄉後山高海拔的一個泰雅族部落"
+      "detailID": 404,
+      "imgUrl": "https://lh4.googleusercontent.com/-8J5lhqDCOWU/WgAb6iJOozI/AAAAAAAAYfk/KlM_KQFbwuczr2J0jQCDpFlIzMV8urAgACLIBGAYYCw/w296-h202-n-k-no/",
+      "title": "小叮噹科學主題樂園",
+      "desc": "科學教育為主題的戶外遊樂園區。"
     }]
   }, {
     "id": 4,

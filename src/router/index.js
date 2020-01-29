@@ -7,6 +7,7 @@ import LocalDetail from '@/pages/localDetail/Detail'
 Vue.use(Router)
 
 export default new Router({
+
   routes: [{
     path: '/',
     name: 'LocalHome',
@@ -21,6 +22,10 @@ export default new Router({
     component: LocalDetail
   }],
   scrollBehavior (to, from, savedPosition) {
-    return { x: 0, y: 0 }
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
   }
 })

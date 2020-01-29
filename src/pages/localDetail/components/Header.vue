@@ -1,12 +1,12 @@
 <template>
     <div>
-        <router-link tag="div" to="/" class="header-abs" v-show="showAbs">
+        <div class="header-abs" v-show="showAbs" @click="handleGoBack">
             <div class="iconfont header-abs-back">&#xe624;</div>
-        </router-link>
+        </div>
         <div class="header-fixed" v-show="!showAbs" :style="opacityStyle">
-            <router-link to="/">
+            <div @click="handleGoBack">
                 <div class="iconfont header-fixed-back">&#xe624;</div>
-            </router-link>
+            </div>
             {{this.sightName}}
         </div>
     </div>
@@ -38,6 +38,9 @@ export default {
       } else {
         this.showAbs = true
       }
+    },
+    handleGoBack () {
+      this.$router.go(-1)
     }
   },
   activated () {

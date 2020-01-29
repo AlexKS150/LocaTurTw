@@ -2,9 +2,9 @@
     "ret": true,
     "data": {
         "sightName": "九份",
-        "mapUrl":"https://goo.gl/maps/di7RgzsMCEQqyRda7",
-        "bannerImg": "https://lh4.googleusercontent.com/proxy/vYkdN3ckZrdqPPrldDxy9TlIP-S38ohQwcCVCrtt5aD09855S0lOb9pnpHaG3ZzBEHRtCxxhMNrVKGE5wYBdVGBbn_OnW4kWbnSLx2QXYQiwYxZKE3nev6vO8s0vEEqXlS_jMmRZPqevl8DF0WhQN0iwT2BElg5tRulqEJPaLqIh=w296-h202-n-k-no",
-        "galleryImgs": ["https://lh4.googleusercontent.com/proxy/vYkdN3ckZrdqPPrldDxy9TlIP-S38ohQwcCVCrtt5aD09855S0lOb9pnpHaG3ZzBEHRtCxxhMNrVKGE5wYBdVGBbn_OnW4kWbnSLx2QXYQiwYxZKE3nev6vO8s0vEEqXlS_jMmRZPqevl8DF0WhQN0iwT2BElg5tRulqEJPaLqIh=w296-h202-n-k-no", "https://t1.gstatic.com/images?q=tbn:ANd9GcS1jbLeEDyTfbcMgdbiGgeJxAcvVsZss6exEi1eUvTJmV8NkXL0rBF2QvsDJRfxGy5vIBy4uHDFSJlsMw", "https://t1.gstatic.com/images?q=tbn:ANd9GcTeZXauKH9I0uKfKB7D1p1e57Vv4PHAOqP0kEsjSbIm6Ll1VJ4jTJsT6yjY45-4-Kskp15801oVVwSgWQ"],
+        "mapUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7225.596153709208!2d121.84118612413862!3d25.108695735749485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d451805536779%3A0x29b83a838c953b84!2zMjI05paw5YyX5biC55Ge6Iqz5Y2A5Lmd5Lu9!5e0!3m2!1szh-TW!2stw!4v1580285745639!5m2!1szh-TW!2stw",
+        "bannerImg": "https://t1.gstatic.com/images?q=tbn:ANd9GcSAmlViLbW_xRg1q_raywsR27LgkAAWoUA-tvr3PNPoO9B8tdjwwgaDAgS5CuOf15B0bgy0KKcfuuLxgw",
+        "galleryImgs": ["https://t1.gstatic.com/images?q=tbn:ANd9GcSAmlViLbW_xRg1q_raywsR27LgkAAWoUA-tvr3PNPoO9B8tdjwwgaDAgS5CuOf15B0bgy0KKcfuuLxgw", "https://t1.gstatic.com/images?q=tbn:ANd9GcS1jbLeEDyTfbcMgdbiGgeJxAcvVsZss6exEi1eUvTJmV8NkXL0rBF2QvsDJRfxGy5vIBy4uHDFSJlsMw", "https://t1.gstatic.com/images?q=tbn:ANd9GcTeZXauKH9I0uKfKB7D1p1e57Vv4PHAOqP0kEsjSbIm6Ll1VJ4jTJsT6yjY45-4-Kskp15801oVVwSgWQ"],
         "detailDesc": "九份是臺灣新北市瑞芳區的一個地區，早期因金礦而興盛，礦坑挖掘殆盡後一度沒落。1990年代後，因電影《悲情城市》於九份取景，其獨特的舊式建築、坡地及風情透過此片吸引國內外的注目，也為此地區重新帶來生機，目前已經成為觀光景點。",
         "itemClaim": "[轉載於Wikipedia]"
     }
