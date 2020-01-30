@@ -1,12 +1,14 @@
 <template>
-<div class="wrapper">
-  <swiper :options="swiperOption" v-if="showSwiper && isKeep" ref="swiper">
-    <swiper-slide v-for="item of list" :key="item.id">
-      <img class="swiper-img" :src="item.imgUrl" >
-    </swiper-slide>
-  <div class="swiper-pagination"  slot="pagination"></div>
-  </swiper>
-</div>
+  <div class="wrapper-container">
+    <div class="wrapper">
+      <swiper :options="swiperOption" v-if="showSwiper && isKeep" ref="swiper">
+        <swiper-slide v-for="item of list" :key="item.id">
+          <img class="swiper-img" :src="item.imgUrl" >
+        </swiper-slide>
+      <div class="swiper-pagination"  slot="pagination"></div>
+      </swiper>
+    </div>
+    </div>
 </template>
 
 <script>
@@ -46,11 +48,19 @@ export default{
 <style lang="stylus" scoped>
 .wrapper>>>.swiper-pagination-bullet-active
   background:#4F1AC8
-.wrapper
-  width: 100%
-  height: 2rem
-  padding-bottom:26.7%
-  background:#fff
-  .swiper-img
-    width:100%
+.wrapper-container
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  .wrapper
+    width: 100%
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    padding-bottom:26.7%
+    background:#fff
+    .swiper-img
+      width:100%
 </style>

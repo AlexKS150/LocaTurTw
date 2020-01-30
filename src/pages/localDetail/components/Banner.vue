@@ -63,16 +63,17 @@ export default {
         background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.8))
         .banner-title
             margin-left:.1rem
-            font-size:.32rem
+            font-size: 5vw
             flex: 1
+            margin-bottom:.5vw
         .banner-number
             margin-top: .14rem
             padding:0 .4rem
-            line-height: .32rem
-            height: .32rem
+            line-height: 5.5vw
+            height: 5vw
             border-radius: .2rem
             background:rgba(0,0,0,0.8)
-            font-size:.24rem
+            font-size:5vw
             .banner-icon
-                font-size:.24rem
+                font-size:5vw
 </style>

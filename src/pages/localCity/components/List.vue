@@ -101,7 +101,7 @@ export default{
     background: .4rem
     background:#9AA0FF
     color:#414141
-    font-size:.35rem
+    font-size:5vw
     text-align:center
   .button-list
     overflow:hidden
@@ -115,11 +115,11 @@ export default{
         text-align:center
         border:.02rem solid #ccc
         border-radius: .06rem
-        font-size: .4rem
+        font-size:4.5vw
   .item-list
     .item
       line-height:.54rem
       padding-left:.2rem
-      font-size: .4rem
+      font-size: 5vw
       text-align: center
 </style>

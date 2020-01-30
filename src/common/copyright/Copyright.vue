@@ -28,12 +28,12 @@ export default {
     margin-top:1rem
     padding-top:.5rem
     width:100%
-    height:3.5rem
+    height:30vw
     background:purple
     .data-use-claim
         margin-bottom:.5rem
     .text-group
-        font-size:0.5rem
+        font-size:5vw
         color:#fff
         text-align:center
 </style>

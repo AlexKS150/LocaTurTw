@@ -51,15 +51,15 @@ export default{
     border-radius:.1rem
     color:#000
     text-align:center
-    font-size:.4rem
+    font-size:5vw
   .header-right
     min-width: 1.04rem
     padding:0 .1rem
     float: right
     text-align:center
     color:#fff
+    font-size:5vw
     .arrow-icon
       margin-left:-0.04rem
-      font-size:.24rem
 
 </style>

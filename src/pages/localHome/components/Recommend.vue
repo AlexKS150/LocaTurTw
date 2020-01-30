@@ -44,7 +44,7 @@ export default{
   background:#ccc
   text-align:.2rem
   text-align: center
-  font-size:.4rem
+  font-size:4vw
 .li-item
   overflow:hidden
   display:flex
@@ -59,16 +59,18 @@ export default{
     min-width:0
     .item-title
       line-height:.54rem
-      font-size:.32rem
+      font-size:5vw
       ellipsis()
     .item-desc
       line-height:.4rem
       color:blue
+      font-size:4vw
       ellipsis()
     .item-button
-      line-height:.44rem
+      line-height:4vw
       margin-top:.16rem
       background:#ff9300
       padding:0.1rem
       border-radius:.06rem
+      font-size:4vw
 </style>

@@ -3,7 +3,7 @@
         <div class="desc-group">
             <div class="site-content">{{this.detailDesc}}</div>
             <div class="wiki-claim" v-html="this.itemClaim"></div>
-            <div><iframe class="google-map" :src="mapUrl" width="370" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+            <div class="iframe-container"><iframe class="google-map" :src="mapUrl" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
         </div>
     </div>
 </template>
@@ -24,13 +24,24 @@ export default {
         padding: .3rem
         .site-content
             text-indent: .8rem
-            font-size:.4rem
-            line-height:.6rem
+            font-size:5vw
+            line-height:6.5vw
         .wiki-claim
             margin-top:.5rem
-            font-size:.5rem
+            font-size:7vw
             text-align:center
-        .google-map
-            margin-top:1rem
+        .iframe-container
+            margin-top:3vw
+            overflow: hidden;
+            padding-top: 56.25%;
+            position: relative;
+            height:10rem
+            .google-map
+                border: 0;
+                height: 100%;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
 
 </style>

@@ -72,7 +72,7 @@ export default{
 @import '~styles/variables.styl'
 .search
   height:.72rem
-  padding:0 0.2rem
+  padding:.03rem 0.2rem
   background:$bgColor
   .search-input
     box-sizing:border-sizing
@@ -83,6 +83,7 @@ export default{
     text-align:center
     border-radius:.06rem
     color:#666
+    font-size:5vw
 .search-content
   z-index:1
   overflow:hidden
@@ -97,4 +98,5 @@ export default{
     padding-left:.2rem
     background:#fff
     color:#666
+    font-size:5vw
 </style>

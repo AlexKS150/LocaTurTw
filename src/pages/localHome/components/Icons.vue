@@ -62,7 +62,7 @@ export default{
     background:#ccc
     text-align:.2rem
     text-align: center
-    font-size:.4rem
+    font-size:4vw
   .icons >>> .swiper-container
     height:0
     padding-bottom:35%
@@ -97,6 +97,7 @@ export default{
         line-height:.44rem
         color:$dartTextColor
         text-align:center
+        font-size:4vw
         ellipsis()
 
 </style>

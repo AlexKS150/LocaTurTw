@@ -68,8 +68,9 @@ export default {
         .header-abs-back
             position: absolute
             color:#fff
-            font-size: .4rem
-            left: .1rem
+            font-size: 5.5vw
+            left: .2rem
+            font-weight:bolder
     .header-fixed
         z-index:2
         position:fixed
@@ -81,12 +82,13 @@ export default {
         text-align: center
         color: #fff
         background: $bgColor
-        font-size: .32rem
+        font-size: 5vw
         .header-fixed-back
             position:absolute
             top:0
             left:.1rem
             margin-left:-.04rem
-            font-size:.5rem
+            font-size:6vw
             color:#fff
+            font-weight:bolder
 </style>

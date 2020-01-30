@@ -25,11 +25,11 @@ export default {
         background:#ccc
         text-align:.2rem
         text-align: center
-        font-size:.4rem
+        font-size:5vw
     .notice-group
         list-style-position:inside
         list-style:upper-alpha
         margin:.5rem .5rem .5rem 1rem
         li
-            font-size:.4rem
+            font-size:5vw
 </style>
