@@ -8,7 +8,7 @@
             </div>
         </div>
         <fade-animation>
-          <common-gallery :imgs="bannerImgs" v-show="showGallery" @close="handelGalleryClose"></common-gallery>
+          <common-gallery :imgs="galleryImgs" v-show="showGallery" @close="handelGalleryClose"></common-gallery>
         </fade-animation>
     </div>
 </template>
@@ -26,15 +26,18 @@ export default {
   },
   data () {
     return {
-      showGallery: false
+      showGallery: false,
+      galleryImgs: []
     }
   },
   methods: {
     handleBannerClick () {
       this.showGallery = true
+      this.galleryImgs = this.bannerImgs
     },
     handelGalleryClose () {
       this.showGallery = false
+      this.galleryImgs = []
     }
   },
   components: {
