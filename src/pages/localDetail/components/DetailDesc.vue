@@ -35,7 +35,7 @@ export default {
             overflow: hidden;
             padding-top: 56.25%;
             position: relative;
-            height:10rem
+            height:7rem
             .google-map
                 border: 0;
                 height: 100%;

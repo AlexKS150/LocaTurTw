@@ -62,7 +62,7 @@ export default{
     background:#ccc
     text-align:.2rem
     text-align: center
-    font-size:4vw
+    font-size:5vw
   .icons >>> .swiper-container
     height:0
     padding-bottom:35%

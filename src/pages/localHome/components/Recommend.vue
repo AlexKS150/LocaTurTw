@@ -44,7 +44,7 @@ export default{
   background:#ccc
   text-align:.2rem
   text-align: center
-  font-size:4vw
+  font-size:5vw
 .li-item
   overflow:hidden
   display:flex

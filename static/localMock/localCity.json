@@ -1,19 +1,16 @@
 {
     "ret":true,
     "data":{
-        "hotCities":[{                
+        "hotCities":[{
             "id": 17,
             "name": "澎湖"
-            }, {
-            "id": 15,
-            "name": "台東"
-            }, {
-            "id": 12,
-            "name": "屏東"             
-            }, {
-            "id": 5,
-            "name": "南投"          
-            }],
+        }, {
+            "id": 18,
+            "name": "金門"
+        }, {
+            "id": 19,
+            "name": "馬祖"
+        }],
         "cities":{
             "北部":[{
                 "id": 0,

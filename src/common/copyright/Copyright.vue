@@ -2,7 +2,7 @@
     <div>
         <div class="copyright-group">
             <div class="data-use-claim text-group">
-                轉載谷歌及維基資料，免費提供
+                轉載谷歌、維基及其他線上資料資料<br>免費提供
             </div>
             <div class="copyright-claim text-group">
                 作品版權所有
@@ -25,15 +25,16 @@ export default {
 
 <style lang="stylus" scoped>
 .copyright-group
-    margin-top:1rem
+    margin-top:.5rem
     padding-top:.5rem
     width:100%
-    height:30vw
+    height:35vw
     background:purple
     .data-use-claim
-        margin-bottom:.5rem
+        margin-bottom:.1rem
     .text-group
         font-size:5vw
         color:#fff
         text-align:center
+        line-height:6vw
 </style>
